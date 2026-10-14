@@ -7,7 +7,7 @@
 </p>
 
 <p align="center">
-  <img src="https://komarev.com/ghpvc/?username=talberger12&color=a855f7&style=flat-square&label=VISITORS" />
+  <img src="https://img.shields.io/badge/MAIN-JAVA-a855f7?style=flat-square&labelColor=0d1117&logo=openjdk&logoColor=white" />
   <img src="https://img.shields.io/github/followers/talberger12?style=flat-square&color=7c3aed&labelColor=0d1117&label=FOLLOWERS" />
   <img src="https://img.shields.io/badge/STATUS-BUILDING%20COOL%20STUFF-22d3ee?style=flat-square&labelColor=0d1117" />
 </p>
@@ -118,11 +118,7 @@ A 2D game prototype — sprites, tile maps, collisions and game loop.
 
 <p align="center">
   <img src="https://streak-stats.demolab.com?user=talberger12&hide_border=true&background=0d1117&ring=a855f7&fire=22d3ee&currStreakLabel=c084fc&sideLabels=e9d5ff&dates=8b949e&currStreakNum=ffffff&sideNums=ffffff" width="49%" />
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=talberger12&layout=donut-vertical&hide_border=true&bg_color=0d1117&title_color=c084fc&text_color=e9d5ff&count_private=true" height="195" />
-</p>
-
-<p align="center">
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=talberger12&bg_color=0d1117&color=c084fc&line=a855f7&point=22d3ee&area=true&area_color=7c3aed&hide_border=true&custom_title=Contribution%20Activity" width="100%" />
+  <img src="./assets/languages.svg" width="49%" />
 </p>
 
 <!-- ====================== SNAKE ====================== -->
