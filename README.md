@@ -1,79 +1,135 @@
-<!-- Header -->
 <p align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:7F00FF,50:5B5FFF,100:00D4FF&height=220&section=header&text=Hi,%20I'm%20Tal%20👋&fontSize=55&fontColor=ffffff&animation=fadeIn&fontAlignY=38&desc=Full-Stack%20Developer%20%7C%20Problem%20Solver&descAlignY=58&descSize=20" />
+  <img src="https://capsule-render.vercel.app/api?type=venom&color=0:0D1117,40:1a0b2e,100:3b0764&height=260&section=header&text=TAL%20BERGER&fontSize=80&fontColor=E9D5FF&stroke=A855F7&strokeWidth=2&animation=twinkling&desc=Game%20Developer%20%E2%80%A2%20ML%20Enthusiast%20%E2%80%A2%20CS%20Student&descSize=20&descAlignY=72&fontAlignY=45" />
 </p>
 
 <p align="center">
-  <a href="https://git.io/typing-svg">
-    <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=24&duration=3000&pause=800&color=A78BFA&center=true&vCenter=true&width=600&lines=Full-Stack+Developer+%F0%9F%9A%80;Python+%7C+JavaScript+%7C+Java+%7C+C%23;Building+things+that+matter+%E2%9C%A8;Always+learning+something+new+%F0%9F%A7%A0" alt="Typing SVG" />
-  </a>
+  <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=700&size=22&duration=2800&pause=700&color=C084FC&center=true&vCenter=true&multiline=false&width=650&lines=%3E+Building+game+engines+from+scratch+%F0%9F%8E%AE;%3E+Training+machine+learning+models+%F0%9F%A7%A0;%3E+Java+%E2%80%A2+Python+%E2%80%A2+C%2B%2B+%E2%80%A2+TypeScript;%3E+Rendering+pixels+with+OpenGL+%E2%9C%A8" />
 </p>
 
 <p align="center">
-  <img src="https://komarev.com/ghpvc/?username=talberger12&color=7F00FF&style=for-the-badge&label=PROFILE+VIEWS" />
-  <img src="https://img.shields.io/github/followers/talberger12?style=for-the-badge&color=5B5FFF&labelColor=0D1117" />
-  <img src="https://img.shields.io/github/stars/talberger12?style=for-the-badge&color=00D4FF&labelColor=0D1117" />
+  <img src="https://komarev.com/ghpvc/?username=talberger12&color=a855f7&style=flat-square&label=VISITORS" />
+  <img src="https://img.shields.io/github/followers/talberger12?style=flat-square&color=7c3aed&labelColor=0d1117&label=FOLLOWERS" />
+  <img src="https://img.shields.io/badge/STATUS-BUILDING%20COOL%20STUFF-22d3ee?style=flat-square&labelColor=0d1117" />
 </p>
 
----
+<br/>
 
-## <img src="https://media.giphy.com/media/hvRJCLFzcasrR4ia7z/giphy.gif" width="28"> About Me
+<!-- ====================== 3D CONTRIBUTIONS ====================== -->
+<p align="center">
+  <img src="./profile-3d-contrib/profile-night-rainbow.svg" alt="3D contributions" width="100%" />
+</p>
 
-```js
-const tal = {
-  role:      "Full-Stack Developer",
-  location:  "Israel 🇮🇱",
-  code:      ["Python", "JavaScript", "TypeScript", "Java", "C", "C++", "C#"],
-  focus:     ["Web Apps", "Backend Systems", "Clean Architecture"],
-  learning:  "Something new every day 🌱",
-  funFact:   "I debug with console.log and I'm proud of it 😄"
-};
+<br/>
+
+## `> whoami`
+
+<table>
+<tr>
+<td width="55%" valign="top">
+
+```yaml
+name:      Tal Berger
+role:      CS Student & Developer
+location:  Israel 🇮🇱
+passions:
+  - 🎮 Game engines & graphics (OpenGL / LWJGL)
+  - 🧠 Machine Learning
+  - ⚙️ Systems & low-level programming
+currently: Building a 3D engine in Java
+motto:     "Ship it, then make it pretty."
 ```
 
-- 🔭 Currently working on exciting side projects
-- 🌱 Exploring cloud, AI and modern web tooling
-- 🤝 Open to collaborations on open-source projects
-- ⚡ Fun fact: coffee → code ☕
+</td>
+<td width="45%" valign="top" align="center">
 
----
+<img src="https://github-readme-stats.vercel.app/api?username=talberger12&show_icons=true&hide_border=true&bg_color=0d1117&title_color=c084fc&icon_color=22d3ee&text_color=e9d5ff&ring_color=a855f7&count_private=true&include_all_commits=true&hide_title=true&rank_icon=github" width="100%" />
 
-## 🛠️ Tech Stack
+</td>
+</tr>
+</table>
+
+## `> ls ./tech-stack`
 
 <p align="center">
-  <img src="https://skillicons.dev/icons?i=python,js,ts,java,c,cpp,cs,html,css&theme=dark" /><br/>
-  <img src="https://skillicons.dev/icons?i=react,nextjs,nodejs,express,tailwind&theme=dark" /><br/>
-  <img src="https://skillicons.dev/icons?i=mongodb,mysql,postgres,docker,git,github,vscode,linux&theme=dark" />
+  <img src="https://skillicons.dev/icons?i=java,python,cpp,c,cs,ts,js&theme=dark&perline=7" /><br/>
+  <img src="https://skillicons.dev/icons?i=opengl,react,nextjs,nodejs,html,css&theme=dark&perline=7" /><br/>
+  <img src="https://skillicons.dev/icons?i=pytorch,sklearn,mongodb,mysql,docker,git,linux&theme=dark&perline=7" />
 </p>
 
----
+## `> ls ./projects`
 
-## 📊 GitHub Stats
+### 🎮 Game Development
+
+<table>
+<tr>
+<td width="50%" valign="top">
+
+#### 🧊 LWJGL Engine
+A custom 3D game engine written from scratch in Java with **LWJGL + OpenGL** — rendering pipeline, shaders, camera & input.
+
+<img src="https://img.shields.io/badge/Java-ED8B00?style=flat-square&logo=openjdk&logoColor=white" /> <img src="https://img.shields.io/badge/OpenGL-5586A4?style=flat-square&logo=opengl&logoColor=white" /> <img src="https://img.shields.io/badge/LWJGL-a855f7?style=flat-square" />
+
+</td>
+<td width="50%" valign="top">
+
+#### 👻 PacMan
+A Pac-Man style game with ghost AI, maze logic and classic arcade gameplay.
+
+<img src="https://img.shields.io/badge/Java-ED8B00?style=flat-square&logo=openjdk&logoColor=white" /> <img src="https://img.shields.io/badge/Game%20AI-22d3ee?style=flat-square" />
+
+</td>
+</tr>
+<tr>
+<td width="50%" valign="top">
+
+#### 🏃 Side Scroller
+A fun side-scrolling game coded in **just 1.5 hours** — a speed-build challenge.
+
+<img src="https://img.shields.io/badge/Java-ED8B00?style=flat-square&logo=openjdk&logoColor=white" /> <img src="https://img.shields.io/badge/Speed%20Build-ec4899?style=flat-square" />
+
+</td>
+<td width="50%" valign="top">
+
+#### 🗺️ 2D Game
+A 2D game prototype — sprites, tile maps, collisions and game loop.
+
+<img src="https://img.shields.io/badge/Java-ED8B00?style=flat-square&logo=openjdk&logoColor=white" /> <img src="https://img.shields.io/badge/libGDX-E74C3C?style=flat-square" />
+
+</td>
+</tr>
+</table>
+
+### 🧠 Machine Learning
 
 <p align="center">
-  <img height="170" src="https://github-readme-stats.vercel.app/api?username=talberger12&show_icons=true&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=A78BFA&icon_color=00D4FF&text_color=C9D1D9&include_all_commits=true&count_private=true" />
-  <img height="170" src="https://github-readme-stats.vercel.app/api/top-langs/?username=talberger12&layout=compact&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=A78BFA&text_color=C9D1D9" />
+  <a href="https://github.com/talberger12/Machine_Leaning_Targil3_Code_Exercise"><img src="https://github-readme-stats.vercel.app/api/pin/?username=talberger12&repo=Machine_Leaning_Targil3_Code_Exercise&hide_border=true&bg_color=0d1117&title_color=c084fc&icon_color=22d3ee&text_color=e9d5ff" /></a>
+  <a href="https://github.com/talberger12/Machine_Leaning_Targil4"><img src="https://github-readme-stats.vercel.app/api/pin/?username=talberger12&repo=Machine_Leaning_Targil4&hide_border=true&bg_color=0d1117&title_color=c084fc&icon_color=22d3ee&text_color=e9d5ff" /></a>
+</p>
+
+### 🎓 Academic Work
+
+<p>
+  <img src="https://img.shields.io/badge/Mini%20Exercises-11%20Completed-a855f7?style=for-the-badge&labelColor=0d1117" />
+  <img src="https://img.shields.io/badge/Operating%20Systems-Assignments-22d3ee?style=for-the-badge&labelColor=0d1117" />
+  <img src="https://img.shields.io/badge/Software%20Exercises-ex0--ex7-ec4899?style=for-the-badge&labelColor=0d1117" />
+</p>
+
+## `> git log --stats`
+
+<p align="center">
+  <img src="https://streak-stats.demolab.com?user=talberger12&hide_border=true&background=0d1117&ring=a855f7&fire=22d3ee&currStreakLabel=c084fc&sideLabels=e9d5ff&dates=8b949e&currStreakNum=ffffff&sideNums=ffffff" width="49%" />
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=talberger12&layout=donut-vertical&hide_border=true&bg_color=0d1117&title_color=c084fc&text_color=e9d5ff&count_private=true" height="195" />
 </p>
 
 <p align="center">
-  <img src="https://streak-stats.demolab.com?user=talberger12&theme=tokyonight&hide_border=true&background=0D1117&ring=7F00FF&fire=00D4FF&currStreakLabel=A78BFA" />
+  <img src="https://github-readme-activity-graph.vercel.app/graph?username=talberger12&bg_color=0d1117&color=c084fc&line=a855f7&point=22d3ee&area=true&area_color=7c3aed&hide_border=true&custom_title=Contribution%20Activity" width="100%" />
+</p>
+
+<!-- ====================== SNAKE ====================== -->
+<p align="center">
+  <img src="https://raw.githubusercontent.com/talberger12/talberger12/output/github-snake-dark.svg" alt="snake" width="100%" />
 </p>
 
 <p align="center">
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=talberger12&bg_color=0D1117&color=A78BFA&line=7F00FF&point=00D4FF&area=true&area_color=5B5FFF&hide_border=true" width="100%" />
-</p>
-
-<p align="center">
-  <img src="https://github-profile-trophy.vercel.app/?username=talberger12&theme=radical&no-frame=true&no-bg=true&margin-w=6&row=1" />
-</p>
-
----
-
-## 🤝 Connect With Me
-
-<p align="center">
-  <a href="https://github.com/talberger12"><img src="https://img.shields.io/badge/GitHub-0D1117?style=for-the-badge&logo=github&logoColor=white" /></a>
-</p>
-
-<p align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:00D4FF,50:5B5FFF,100:7F00FF&height=120&section=footer" />
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:3b0764,50:1a0b2e,100:0D1117&height=120&section=footer&reversal=true" />
 </p>
