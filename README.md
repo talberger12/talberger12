@@ -123,7 +123,15 @@ A 2D game prototype — sprites, tile maps, collisions and game loop.
 
 <!-- ====================== SNAKE ====================== -->
 <p align="center">
-  <img src="https://raw.githubusercontent.com/talberger12/talberger12/output/github-snake-dark.svg" alt="snake" width="100%" />
+  <a href="https://talberger12.github.io/talberger12/">
+    <img src="https://raw.githubusercontent.com/talberger12/talberger12/output/github-snake-dark.svg" alt="Play Snake on my contributions" width="100%" />
+  </a>
+</p>
+
+<p align="center">
+  <a href="https://talberger12.github.io/talberger12/">
+    <img src="./assets/play-button.svg" alt="PLAY SNAKE on my real contribution graph" />
+  </a>
 </p>
 
 <p align="center">

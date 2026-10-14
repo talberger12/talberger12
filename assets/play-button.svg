@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="320" height="80" viewBox="0 0 320 80">
+  <style>
+    .t { font: 800 18px 'Segoe UI', Ubuntu, sans-serif; fill: #ffffff; letter-spacing: 2px; }
+    .s { font: 500 11px 'Segoe UI', Ubuntu, sans-serif; fill: #ede9fe; letter-spacing: .5px; }
+    .glow { animation: pulse 2s ease-in-out infinite; }
+    @keyframes pulse { 0%, 100% { opacity: .35; } 50% { opacity: 1; } }
+    .tri { animation: nudge 1.2s ease-in-out infinite; }
+    @keyframes nudge { 50% { transform: translateX(3px); } }
+  </style>
+  <defs>
+    <linearGradient id="g" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#7c3aed"/>
+      <stop offset=".55" stop-color="#a855f7"/>
+      <stop offset="1" stop-color="#22d3ee"/>
+    </linearGradient>
+    <filter id="blur" x="-20%" y="-60%" width="140%" height="220%">
+      <feGaussianBlur stdDeviation="7"/>
+    </filter>
+  </defs>
+  <rect class="glow" x="20" y="18" width="280" height="44" rx="22" fill="url(#g)" filter="url(#blur)"/>
+  <rect x="20" y="18" width="280" height="44" rx="22" fill="url(#g)"/>
+  <circle cx="50" cy="40" r="14" fill="#0d1117" opacity=".35"/>
+  <path class="tri" d="M45 32 L58 40 L45 48 Z" fill="#ffffff"/>
+  <text x="76" y="38" class="t">PLAY SNAKE</text>
+  <text x="76" y="53" class="s">on my real contribution graph</text>
+</svg>

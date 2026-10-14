@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Snake on Tal Berger's GitHub Contributions | Play Now</title>
+  <meta name="description" content="Play Snake on Tal Berger's (talberger12) real GitHub contribution graph. Eat every commit, chase the high score, unlock endless mode." />
+  <meta property="og:title" content="Snake on my GitHub contributions 🐍" />
+  <meta property="og:description" content="Every square is a real day from my GitHub graph. Eat the commits. Don't bite yourself." />
+  <meta name="theme-color" content="#07060d" />
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🐍</text></svg>" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;800&family=JetBrains+Mono:wght@500;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="bg" aria-hidden="true">
+    <span class="blob b1"></span><span class="blob b2"></span><span class="blob b3"></span>
+  </div>
+
+  <main class="wrap">
+    <header class="top">
+      <a class="back" id="back-link" href="https://github.com/talberger12">← github.com/talberger12</a>
+      <h1><span class="grad">Snake</span> on my contributions</h1>
+      <p class="sub">Every square is a real day from my GitHub graph (<b id="total">…</b> contributions this year). Eat the commits. Don't bite yourself.</p>
+    </header>
+
+    <section class="hud" aria-label="Game stats">
+      <div class="stat"><span class="label">Score</span><span class="value" id="score">0</span></div>
+      <div class="stat"><span class="label">Best</span><span class="value" id="best">0</span></div>
+      <div class="stat"><span class="label">Length</span><span class="value" id="length">4</span></div>
+      <div class="stat"><span class="label">Commits eaten</span><span class="value" id="eaten">0/0</span></div>
+    </section>
+
+    <section class="board-card" id="board-card" aria-label="Game board">
+      <canvas id="game"></canvas>
+      <div class="tip" id="tip"></div>
+      <div class="toast" id="toast" role="status"></div>
+      <div class="overlay" id="overlay">
+        <div class="panel">
+          <div class="emoji" id="overlay-emoji">🐍</div>
+          <h2 id="overlay-title">Ready to play?</h2>
+          <p id="overlay-text">Eat every commit on my contribution graph.<br />Brighter squares = more points.</p>
+          <button class="btn primary" id="start-btn">Play</button>
+        </div>
+      </div>
+    </section>
+
+    <section class="controls">
+      <div class="legend" aria-label="Points per square">
+        Less <i class="l0"></i><i class="l1"></i><i class="l2"></i><i class="l3"></i><i class="l4"></i> More
+        <span class="pts">10 · 20 · 30 · 50 pts</span>
+      </div>
+      <div class="buttons">
+        <button class="btn" id="pause-btn">Pause</button>
+        <button class="btn" id="restart-btn">Restart</button>
+        <button class="btn icon" id="sound-btn" aria-label="Toggle sound">🔊</button>
+      </div>
+    </section>
+
+    <div class="dpad" id="dpad" aria-label="Touch controls">
+      <button id="dpad-up" data-dir="0,-1" aria-label="Up">▲</button>
+      <button id="dpad-left" data-dir="-1,0" aria-label="Left">◀</button>
+      <button id="dpad-down" data-dir="0,1" aria-label="Down">▼</button>
+      <button id="dpad-right" data-dir="1,0" aria-label="Right">▶</button>
+    </div>
+
+    <p class="hint"><kbd>←</kbd><kbd>↑</kbd><kbd>↓</kbd><kbd>→</kbd> / <kbd>WASD</kbd> move · <kbd>Space</kbd> pause · <kbd>R</kbd> restart · <kbd>M</kbd> mute · edges are portals</p>
+
+    <footer>Made by <a href="https://github.com/talberger12">talberger12</a> · contribution data refreshes every 12 hours</footer>
+  </main>
+
+  <script src="game.js"></script>
+</body>
+</html>

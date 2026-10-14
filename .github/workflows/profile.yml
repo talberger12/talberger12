@@ -22,12 +22,19 @@ jobs:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           USERNAME: ${{ github.repository_owner }}
 
-      - name: Commit 3D SVGs
+      - name: Fetch calendar data for playable game
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          query='query($userName:String!) { user(login: $userName){ contributionsCollection { contributionCalendar { totalContributions weeks { contributionDays { contributionCount date weekday contributionLevel } } } } } }'
+          gh api graphql -f query="$query" -F userName="${{ github.repository_owner }}" > docs/contributions.json
+
+      - name: Commit 3D SVGs and game data
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add -A profile-3d-contrib
-          git diff --cached --quiet || git commit -m "🧊 Update 3D contributions [skip ci]"
+          git add -A profile-3d-contrib docs/contributions.json
+          git diff --cached --quiet || git commit -m "🧊 Update 3D contributions and game data [skip ci]"
           git push
 
       - name: Snake
